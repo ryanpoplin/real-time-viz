@@ -142,6 +142,7 @@
 				4AC97FE31C5EDA76004132A1 /* Sources */,
 				4AC97FE41C5EDA76004132A1 /* Frameworks */,
 				4AC97FE51C5EDA76004132A1 /* Resources */,
+				4AC9801D1C5EF77F004132A1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -257,6 +258,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AC9801D1C5EF77F004132A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SocketIOClientSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4AC97FE31C5EDA76004132A1 /* Sources */ = {
