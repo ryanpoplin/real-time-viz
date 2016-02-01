@@ -15,6 +15,7 @@
 		4AC97FF81C5EDA77004132A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC97FF61C5EDA77004132A1 /* LaunchScreen.storyboard */; };
 		4AC980031C5EDA77004132A1 /* real_time_vizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC980021C5EDA77004132A1 /* real_time_vizTests.swift */; };
 		4AC9800E1C5EDA78004132A1 /* real_time_vizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9800D1C5EDA78004132A1 /* real_time_vizUITests.swift */; };
+		4AC9801C1C5EF05B004132A1 /* SocketIOClientSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC9801B1C5EF05B004132A1 /* SocketIOClientSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4AC980091C5EDA77004132A1 /* real-time-vizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-time-vizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AC9800D1C5EDA78004132A1 /* real_time_vizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_time_vizUITests.swift; sourceTree = "<group>"; };
 		4AC9800F1C5EDA78004132A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC9801B1C5EF05B004132A1 /* SocketIOClientSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIOClientSwift.framework; path = Carthage/Build/iOS/SocketIOClientSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AC9801C1C5EF05B004132A1 /* SocketIOClientSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		4AC97FDE1C5EDA76004132A1 = {
 			isa = PBXGroup;
 			children = (
+				4AC9801B1C5EF05B004132A1 /* SocketIOClientSwift.framework */,
 				4AC97FE91C5EDA76004132A1 /* real-time-viz */,
 				4AC980011C5EDA77004132A1 /* real-time-vizTests */,
 				4AC9800C1C5EDA78004132A1 /* real-time-vizUITests */,
@@ -401,6 +405,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "real-time-viz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.luupy.real-time-viz";
@@ -412,6 +420,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "real-time-viz/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.luupy.real-time-viz";
