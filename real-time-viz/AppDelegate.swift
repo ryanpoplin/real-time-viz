@@ -16,21 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         // Override point for customization after application launch.
 
         let socket = SocketIOClient(socketURL: NSURL(string: "http://192.168.1.11:8080")!, options: [.Log(true), .ForcePolling(true)])
         
         socket.on("connect") { data, ack in
-            print("socket connection")
+            print("socket connection established")
         }
-//        socket.on("currentAmount") { data, ack in
-//            if let cur = data[0] as? Double {
-//                socket.emitWithAck("canUpdate", cur)(timeoutAfter: 0) { data in
-//                    socket.emit("update", ["amount": cur + 2.50])
-//                }
-//                ack.with("Got your currentAmount", "dude")
-//            }
-//        }
         
         socket.connect()
         
