@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4AC97FEB1C5EDA76004132A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC97FEA1C5EDA76004132A1 /* AppDelegate.swift */; };
+		4AC97FED1C5EDA76004132A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC97FEC1C5EDA76004132A1 /* ViewController.swift */; };
+		4AC97FF01C5EDA77004132A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC97FEE1C5EDA77004132A1 /* Main.storyboard */; };
+		4AC97FF31C5EDA77004132A1 /* real_time_viz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AC97FF11C5EDA77004132A1 /* real_time_viz.xcdatamodeld */; };
+		4AC97FF51C5EDA77004132A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AC97FF41C5EDA77004132A1 /* Assets.xcassets */; };
+		4AC97FF81C5EDA77004132A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AC97FF61C5EDA77004132A1 /* LaunchScreen.storyboard */; };
+		4AC980031C5EDA77004132A1 /* real_time_vizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC980021C5EDA77004132A1 /* real_time_vizTests.swift */; };
+		4AC9800E1C5EDA78004132A1 /* real_time_vizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AC9800D1C5EDA78004132A1 /* real_time_vizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AC97FFF1C5EDA77004132A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC97FDF1C5EDA76004132A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC97FE61C5EDA76004132A1;
+			remoteInfo = "real-time-viz";
+		};
+		4AC9800A1C5EDA77004132A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AC97FDF1C5EDA76004132A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4AC97FE61C5EDA76004132A1;
+			remoteInfo = "real-time-viz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4AC97FE71C5EDA76004132A1 /* real-time-viz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "real-time-viz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC97FEA1C5EDA76004132A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AC97FEC1C5EDA76004132A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4AC97FEF1C5EDA77004132A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AC97FF21C5EDA77004132A1 /* real_time_viz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = real_time_viz.xcdatamodel; sourceTree = "<group>"; };
+		4AC97FF41C5EDA77004132A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AC97FF71C5EDA77004132A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AC97FF91C5EDA77004132A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC97FFE1C5EDA77004132A1 /* real-time-vizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-time-vizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC980021C5EDA77004132A1 /* real_time_vizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_time_vizTests.swift; sourceTree = "<group>"; };
+		4AC980041C5EDA77004132A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AC980091C5EDA77004132A1 /* real-time-vizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "real-time-vizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC9800D1C5EDA78004132A1 /* real_time_vizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = real_time_vizUITests.swift; sourceTree = "<group>"; };
+		4AC9800F1C5EDA78004132A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AC97FE41C5EDA76004132A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC97FFB1C5EDA77004132A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC980061C5EDA77004132A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC97FDE1C5EDA76004132A1 = {
+			isa = PBXGroup;
+			children = (
+				4AC97FE91C5EDA76004132A1 /* real-time-viz */,
+				4AC980011C5EDA77004132A1 /* real-time-vizTests */,
+				4AC9800C1C5EDA78004132A1 /* real-time-vizUITests */,
+				4AC97FE81C5EDA76004132A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AC97FE81C5EDA76004132A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AC97FE71C5EDA76004132A1 /* real-time-viz.app */,
+				4AC97FFE1C5EDA77004132A1 /* real-time-vizTests.xctest */,
+				4AC980091C5EDA77004132A1 /* real-time-vizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AC97FE91C5EDA76004132A1 /* real-time-viz */ = {
+			isa = PBXGroup;
+			children = (
+				4AC97FEA1C5EDA76004132A1 /* AppDelegate.swift */,
+				4AC97FEC1C5EDA76004132A1 /* ViewController.swift */,
+				4AC97FEE1C5EDA77004132A1 /* Main.storyboard */,
+				4AC97FF41C5EDA77004132A1 /* Assets.xcassets */,
+				4AC97FF61C5EDA77004132A1 /* LaunchScreen.storyboard */,
+				4AC97FF91C5EDA77004132A1 /* Info.plist */,
+				4AC97FF11C5EDA77004132A1 /* real_time_viz.xcdatamodeld */,
+			);
+			path = "real-time-viz";
+			sourceTree = "<group>";
+		};
+		4AC980011C5EDA77004132A1 /* real-time-vizTests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC980021C5EDA77004132A1 /* real_time_vizTests.swift */,
+				4AC980041C5EDA77004132A1 /* Info.plist */,
+			);
+			path = "real-time-vizTests";
+			sourceTree = "<group>";
+		};
+		4AC9800C1C5EDA78004132A1 /* real-time-vizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4AC9800D1C5EDA78004132A1 /* real_time_vizUITests.swift */,
+				4AC9800F1C5EDA78004132A1 /* Info.plist */,
+			);
+			path = "real-time-vizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AC97FE61C5EDA76004132A1 /* real-time-viz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC980121C5EDA78004132A1 /* Build configuration list for PBXNativeTarget "real-time-viz" */;
+			buildPhases = (
+				4AC97FE31C5EDA76004132A1 /* Sources */,
+				4AC97FE41C5EDA76004132A1 /* Frameworks */,
+				4AC97FE51C5EDA76004132A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "real-time-viz";
+			productName = "real-time-viz";
+			productReference = 4AC97FE71C5EDA76004132A1 /* real-time-viz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4AC97FFD1C5EDA77004132A1 /* real-time-vizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC980151C5EDA78004132A1 /* Build configuration list for PBXNativeTarget "real-time-vizTests" */;
+			buildPhases = (
+				4AC97FFA1C5EDA77004132A1 /* Sources */,
+				4AC97FFB1C5EDA77004132A1 /* Frameworks */,
+				4AC97FFC1C5EDA77004132A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC980001C5EDA77004132A1 /* PBXTargetDependency */,
+			);
+			name = "real-time-vizTests";
+			productName = "real-time-vizTests";
+			productReference = 4AC97FFE1C5EDA77004132A1 /* real-time-vizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AC980081C5EDA77004132A1 /* real-time-vizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AC980181C5EDA78004132A1 /* Build configuration list for PBXNativeTarget "real-time-vizUITests" */;
+			buildPhases = (
+				4AC980051C5EDA77004132A1 /* Sources */,
+				4AC980061C5EDA77004132A1 /* Frameworks */,
+				4AC980071C5EDA77004132A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AC9800B1C5EDA77004132A1 /* PBXTargetDependency */,
+			);
+			name = "real-time-vizUITests";
+			productName = "real-time-vizUITests";
+			productReference = 4AC980091C5EDA77004132A1 /* real-time-vizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AC97FDF1C5EDA76004132A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Luupy;
+				TargetAttributes = {
+					4AC97FE61C5EDA76004132A1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					4AC97FFD1C5EDA77004132A1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4AC97FE61C5EDA76004132A1;
+					};
+					4AC980081C5EDA77004132A1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 4AC97FE61C5EDA76004132A1;
+					};
+				};
+			};
+			buildConfigurationList = 4AC97FE21C5EDA76004132A1 /* Build configuration list for PBXProject "real-time-viz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AC97FDE1C5EDA76004132A1;
+			productRefGroup = 4AC97FE81C5EDA76004132A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AC97FE61C5EDA76004132A1 /* real-time-viz */,
+				4AC97FFD1C5EDA77004132A1 /* real-time-vizTests */,
+				4AC980081C5EDA77004132A1 /* real-time-vizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AC97FE51C5EDA76004132A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC97FF81C5EDA77004132A1 /* LaunchScreen.storyboard in Resources */,
+				4AC97FF51C5EDA77004132A1 /* Assets.xcassets in Resources */,
+				4AC97FF01C5EDA77004132A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC97FFC1C5EDA77004132A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC980071C5EDA77004132A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AC97FE31C5EDA76004132A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC97FED1C5EDA76004132A1 /* ViewController.swift in Sources */,
+				4AC97FEB1C5EDA76004132A1 /* AppDelegate.swift in Sources */,
+				4AC97FF31C5EDA77004132A1 /* real_time_viz.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC97FFA1C5EDA77004132A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC980031C5EDA77004132A1 /* real_time_vizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AC980051C5EDA77004132A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AC9800E1C5EDA78004132A1 /* real_time_vizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4AC980001C5EDA77004132A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC97FE61C5EDA76004132A1 /* real-time-viz */;
+			targetProxy = 4AC97FFF1C5EDA77004132A1 /* PBXContainerItemProxy */;
+		};
+		4AC9800B1C5EDA77004132A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4AC97FE61C5EDA76004132A1 /* real-time-viz */;
+			targetProxy = 4AC9800A1C5EDA77004132A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AC97FEE1C5EDA77004132A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC97FEF1C5EDA77004132A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4AC97FF61C5EDA77004132A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AC97FF71C5EDA77004132A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4AC980101C5EDA78004132A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AC980111C5EDA78004132A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AC980131C5EDA78004132A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "real-time-viz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.luupy.real-time-viz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4AC980141C5EDA78004132A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "real-time-viz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.luupy.real-time-viz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4AC980161C5EDA78004132A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "real-time-vizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.luupy.real-time-vizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/real-time-viz.app/real-time-viz";
+			};
+			name = Debug;
+		};
+		4AC980171C5EDA78004132A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "real-time-vizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.luupy.real-time-vizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/real-time-viz.app/real-time-viz";
+			};
+			name = Release;
+		};
+		4AC980191C5EDA78004132A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "real-time-vizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.luupy.real-time-vizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "real-time-viz";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4AC9801A1C5EDA78004132A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "real-time-vizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.luupy.real-time-vizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "real-time-viz";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AC97FE21C5EDA76004132A1 /* Build configuration list for PBXProject "real-time-viz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC980101C5EDA78004132A1 /* Debug */,
+				4AC980111C5EDA78004132A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AC980121C5EDA78004132A1 /* Build configuration list for PBXNativeTarget "real-time-viz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC980131C5EDA78004132A1 /* Debug */,
+				4AC980141C5EDA78004132A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AC980151C5EDA78004132A1 /* Build configuration list for PBXNativeTarget "real-time-vizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC980161C5EDA78004132A1 /* Debug */,
+				4AC980171C5EDA78004132A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4AC980181C5EDA78004132A1 /* Build configuration list for PBXNativeTarget "real-time-vizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AC980191C5EDA78004132A1 /* Debug */,
+				4AC9801A1C5EDA78004132A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4AC97FF11C5EDA77004132A1 /* real_time_viz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4AC97FF21C5EDA77004132A1 /* real_time_viz.xcdatamodel */,
+			);
+			currentVersion = 4AC97FF21C5EDA77004132A1 /* real_time_viz.xcdatamodel */;
+			path = real_time_viz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4AC97FDF1C5EDA76004132A1 /* Project object */;
+}
